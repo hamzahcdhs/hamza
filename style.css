@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+div{
+    width: 50%;
+    height: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+img:nth-child(1){
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+img:nth-child(2){
+    position: absolute;
+    top: 15%;
+    right: 0;
+}
+h1{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size:50px;
+    width: 55%;
+}
+samp{color: rgb(0, 72, 255);}
+h3{
+    color: rgb(1, 133, 248);
+    position: absolute;
+    bottom: 600px;
+    left: 60px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hamza{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    padding: 5px;
+    width: 200px;
+    font-size: 18px;
+    background-color: rgb(155, 163, 166);
+    border-radius: 20px;
+    border: 1px solid #1877f2;
+}
+.hamz{
+    position: absolute;
+    top: 36%;
+    left: 28%;
+    padding: 5px;
+    width: 200px;
+    font-size: 18px;
+    background-color: rgb(178, 189, 193);
+    border-radius: 20px;
+    border: 1px solid #1877f2;
+}
+::placeholder{
+    color:rgb(64, 115, 191);
+}
+button{
+    position: absolute;
+    left: 34%;
+    top: 52%;
+    width: 120px;
+    height: 30px;
+    background-color: #1877f2;
+    color: white;              
+    border: 2px solid #0d5bc1;
+    border-radius: 8px;       
+    padding: 12px 25px;
+}
+a{
+    position: absolute;
+    left: 35%;
+    font-size: 15px;
+    bottom: 40%;
+}
+button:hover {
+    background-color: #0d5bc1;
+    border-color: #084298;
+}
+.ham{
+    position: absolute;
+    left: 35%;
+    font-size: 15px;
+    bottom: 36%;
+}
+
